@@ -1,4 +1,4 @@
-# EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
+# EXPERIMENT--03-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
 
 NAME:VANA BHARATH D
 REG NO:212223040231
@@ -176,25 +176,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-/* USER CODE BEGIN Header */
-/**
-  **************************
-  * @file           : main.c
-  * @brief          : Main program body
-  **************************
-  * @attention
-  *
-  * Copyright (c) 2024 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  **************************
-  */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
+````
 #include "main.h"
 #include "lcd.h"
 Lcd_PortType ports[] = {GPIOA,GPIOA,GPIOA,GPIOA};
@@ -385,7 +367,7 @@ void assert_failed(uint8_t *file, uint32_t line)
      ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
 }
-#endif /* USE_FULL_ASSERT */
+````
 
 
 
